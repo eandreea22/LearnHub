@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  font-size:20px;
+}
+
+tr:nth-child(even) {
+  background-color: #E8EBF0;
+}
+
+.cl{
+	align-items: center;
+	justify-content: center;
+	
+	font-size: 3rem;
+	
+	width: auto;
+	padding-top: 1.25rem;
+	padding-bottom: 1.25rem;
+	overflow:hidden;
+	overflow-y: scroll;
+	height: auto;
+	
+	
+}
